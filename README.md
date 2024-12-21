@@ -19,13 +19,38 @@ IMVU Notify es una aplicación de escritorio que te permite monitorear el estado
 
 ## 📦 Dependencias
 
+El proyecto utiliza las siguientes librerías de Python:
+
+### Librerías Externas
 ```
-requests==2.31.0
-Pillow==10.1.0
-pygame==2.5.2
-pystray
-plyer==2.1.0
+requests==2.31.0      # Para realizar peticiones HTTP a la API de IMVU
+Pillow==10.1.0       # Para el procesamiento de imágenes
+pygame==2.5.2        # Para la reproducción de sonidos
+pystray==0.19.5      # Para el ícono en la bandeja del sistema
+plyer==2.1.0         # Para notificaciones del sistema
 ```
+
+### Librerías Estándar de Python
+```python
+tkinter          # Para la interfaz gráfica
+webbrowser       # Para abrir enlaces en el navegador
+threading        # Para procesos en segundo plano
+json            # Para el manejo de archivos JSON
+datetime        # Para el manejo de fechas y tiempo
+sys             # Para funcionalidades del sistema
+traceback       # Para el manejo de errores
+winsound        # Para efectos de sonido en Windows
+io              # Para el manejo de streams de datos
+```
+
+### Instalación de Dependencias
+
+Para instalar todas las dependencias necesarias, ejecuta:
+```bash
+pip install -r requirements.txt
+```
+
+> ⚠️ **Nota**: Las librerías estándar de Python ya vienen incluidas en la instalación de Python y no necesitan ser instaladas por separado.
 
 ## 🚀 Instalación
 

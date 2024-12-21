@@ -1,5 +1,14 @@
 requests==2.31.0
 Pillow==10.1.0
 pygame==2.5.2
-pystray
+pystray==0.19.5
 plyer==2.1.0
+tkinter
+webbrowser
+threading
+json
+datetime
+sys
+traceback
+winsound
+io
